@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="1" name="Failed suite [PlateIQTestSuite]" guice-stage="DEVELOPMENT">
+  <parameter name="browser" value="chrome"/>
+  <test thread-count="1" name="Test(failed)">
+    <classes>
+      <class name="com.quintype.tests.TwitterTest">
+        <methods>
+          <include name="followTweeterHandleTest"/>
+          <include name="loginToTwitter"/>
+          <include name="init"/>
+          <include name="setup"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- com.quintype.tests.TwitterTest -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [PlateIQTestSuite] -->

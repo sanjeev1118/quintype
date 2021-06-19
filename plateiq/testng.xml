@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="PlateIQTestSuite" preserve-order="true"
+	thread-count="1" parallel="none">
+	<!-- <listeners>
+		<listener class-name="com.plateiq.utils.TestListener"/>
+	</listeners> -->
+	<parameter name="browser" value="chrome" />
+
+	<test name="Test">
+
+		<classes>
+			<class name="com.quintype.tests.TwitterTest" />
+		</classes>
+	</test> <!-- Test -->
+</suite> <!-- PlateIQTestSuite -->
